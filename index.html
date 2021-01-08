@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap" rel="stylesheet">
+
+    <title>SocialX</title>
+</head>
+
+<body>
+    <nav class="main-menu navbar navbar-expand-md navbar-light mx-md-5">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="img/logo.svg" alt=""></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse d-md-flex justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item mx-3">
+          <a class="nav-link" href="#">Feature</a>
+        </li>
+        <li class="nav-item mx-3">
+          <a class="nav-link" href="#">work</a>
+        </li>
+        <li class="nav-item mx-3">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+        <li class="nav-item mx-3">
+          <a class="nav-link get-started" onclick="takeme()">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!--BANNER-->
+<div class="container-fluid banner">
+    <div class="row stars">
+        <img src="img/icon.svg" alt="" class="img-fluid">
+        <div class="text-h">
+            <h1>Be Together, Whenever.</h1>
+            <p>I must explain to you how all this mistaken idea of denouncing pleasure and praising <br> pain was born and I will give you a
+            complete account.</p>
+            <button onclick="takeme()">Try 30 Days Free</button>
+        </div>
+    </div>
+    <div class="row svg-main" >
+        <img src="img/Group 265.svg" alt="" class="img-fluid">
+    </div>
+</div>
+
+<!--Features-->
+<div class="features container-fluid">
+  <img src="img/heading.svg" alt="" class="img-fluid temp">
+    <div class="row align-items-center d-flex justify-content-center">
+      <div class="col-lg-3 col-md-4 col-sm-10">
+        <div class="blurp">
+          <img src="img/Rectangle 443.svg" alt="" class="img-fluid">
+          <h3>Message System</h3>
+          <p>
+            But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born a complete
+            account.
+          </p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-10">
+        <div class="blurp">
+          <img src="img/Rectangle 445.png" alt="" class="img-fluid">
+          <h3>File Sharing</h3>
+          <p>
+            But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born a complete
+            account.
+          </p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-10">
+        <div class="blurp">
+          <img src="img/Rectangle 447.png" alt="" class="img-fluid">
+          <h3>Voice Calls</h3>
+          <p>
+            But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born a complete
+            account.
+          </p>
+        </div>
+      </div>
+    </div>
+</div>
+<div class="container-fluid action-time my-2">
+  <div class="row credit">
+    <div class="col-lg col-sm-10 sign-up-l my-auto">
+      <h1>Create Account</h1>
+      <p>We all need to start well must explain to you how all this mistaken idea of denouncing pleasure and praising pain was
+      born and I will give you a complete account of the system, and expound.</p>
+      <form class="sign" action="">
+        <input type="email" placeholder="E-mail Address" id="email">
+        <button>Get started</button>
+      </form>
+    </div>
+    <div class="col-lg col-sm-10 sing-up-r px-md-1 px-lg-0">
+      <img src="img/Illustration1.svg" alt="" class="img-fluid">
+    </div>
+    <span id="line" class="d-md-none"></span>
+  </div>
+   <div class="row credit">
+    <div class="col-lg col-sm-10 sign-up-l my-auto order-md-2 px-lg-5">
+      <h1>Invite Friend</h1>
+      <p>We all need to start well must explain to you how all this mistaken idea of denouncing pleasure and praising pain
+        was
+        born and I will give you a complete account of the system, and expound.</p>
+      
+        
+        <button id="invite">Get started</button>
+      
+    </div>
+    <div class="col-lg col-sm-10 sing-up-r">
+      <img src="img/Illustration.svg" alt="" class="img-fluid">
+    </div>
+  </div>
+</div>
+<div class="container-fluid pricing">
+  <div class="row head-price">
+    <h1>Pricing Plan</h1>
+    <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give
+    you a complete account of the system.</p>
+  </div>
+  <div class="row d-md-flex justify-content-center">
+    <div class="col-lg-3 col-md-10 money">
+      <img src="img/Group 1119.svg" alt="" class="img-fluid">
+      <h3>$18.35/ Month</h3>
+      <span class="lines"></span>
+      <ul>
+        <li>30gb Storage</li>
+        <li>More than 500+ friend include</li>
+        <li>Group chat available</li>
+        <li>Catagories Based Friend-list</li>
+      </ul>
+      <div class="go-on">
+        <button onclick="takeme()">Sign up</button>
+        <a href="">Try 30 days free</a>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-10 money">
+      <img src="img/Group 1128.svg" alt="" class="img-fluid">
+      <h3>$18.35/ Month</h3>
+      <span class="lines"></span>
+      <ul>
+        <li>30gb Storage</li>
+        <li>More than 500+ friend include</li>
+        <li>Group chat available</li>
+        <li>Catagories Based Friend-list</li>
+      </ul>
+      <div class="go-on right-b">
+        <button onclick="takeme()">Sign up</button>
+        <a href="">Try 30 days free</a>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container-fluid phone px-md-5">
+  <div class="row mx-md-5 py-md-5">
+    <div class="col-md-7 text-d mx-md-5 px-md-5 col-sm-12">
+      <h2>You can easily Record Video Call</h2>
+      <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give
+      you a complete account of the system, and expound the actual teachings of the great explorer of the truth.</p>
+      <h3 class="d-inline">Download App Now? </h3>
+      <span class="google play"><img onclick="takeme()" src="img/Group 1108.png" alt="" class="img-fluid" width="100px"></span>
+      <span class="google apple "><img onclick="takeme()" src="img/Group 1114.png" alt="" class="img-fluid" width="100px"></span>
+    </div>
+  </div>
+  
+</div>
+<div class="container-fluid screen d-md-none d-lg-block"><img src="img/Screen.svg" alt="" class="img-fluid iphone" width="250px"></div>
+
+<div class="container-fluid news mt-lg-5">
+  <div class="row">
+    <div class="row px-5">
+      <div class="col">
+        <h1><span>Subsribe</span> Newsletter for keep updated</h1>
+        <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I
+          complete
+          account of the system, and expound the actual teachings.</p>
+      </div>
+      <div class="col my-auto py-4"><button onclick="takeme()">Subscribe</button></div>
+    </div>
+  </div>
+</div>
+<div class="container-fluid footer-l">
+  <div class="row px-md-5">
+    <div class="col-md col-sm-10 ">
+      <img src="img/Group 50.png" alt="" class="iimg-fluid" width="150px">
+      <ul class="socials">
+        <li><img src="img/Group 47.png" alt=""></li>
+        <li><img src="img/Group 45.png" alt=""></li>
+        <li><img src="img/Group 48.png" alt=""></li>
+        <li><img src="img/Group 46.png" alt=""></li>
+      </ul>
+    </div>
+    <div class="col-md col-sm-6 navigate_me">
+      <h4>Links</h4>
+      <ul class="link">
+        <li class="take_me lets_go">Home</li>
+        <li class="take_me lets_go">Portfolio</li>
+        <li class="take_me lets_go">News</li>
+        <li class="take_me lets_go">Publicity</li>
+      </ul>
+    </div>
+    <div class="col-md col-sm-6">
+      <h4>Help</h4>
+      <ul class="service">
+        <li class="help lets_go">FAQ</li>
+        <li class="help lets_go">Contact</li>
+        <li class="help lets_go">Forum</li>
+        <li class="help lets_go">Repositary</li>
+      </ul>
+    </div>
+    <div class="col-md col-sm-10">
+      <h4>Reach</h4>
+      <ul class="address">
+        <li class="reach_me lets_go">Jaipur India</li>
+        <li class="reach_me lets_go">+1(387)-267262</li>
+        <li class="reach_me lets_go">harshpareek91@gmail.com</li>
+      </ul>
+    </div>
+    <div class="row footer-line mt-5 mb-1 mx-auto">
+      <div class="col last">Made with love. UI inspired from Dribble.</div>
+      <div class="col last"><i class="fa fa-heart" aria-hidden="true"></i> by Harsh.</Harsh></div>
+    </div>
+
+  </div>
+</div>
+
+<script src="main.js"></script>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
